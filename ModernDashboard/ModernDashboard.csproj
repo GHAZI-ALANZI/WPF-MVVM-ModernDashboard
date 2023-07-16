@@ -55,6 +55,36 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="View\DesktopView.xaml.cs">
+      <DependentUpon>DesktopView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DocumentView.xaml.cs">
+      <DependentUpon>DocumentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DownloadView.xaml.cs">
+      <DependentUpon>DownloadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HomeView.xaml.cs">
+      <DependentUpon>HomeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MovieView.xaml.cs">
+      <DependentUpon>MovieView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MusicView.xaml.cs">
+      <DependentUpon>MusicView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PCView.xaml.cs">
+      <DependentUpon>PCView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PictureView.xaml.cs">
+      <DependentUpon>PictureView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StartupView.xaml.cs">
+      <DependentUpon>StartupView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TrashView.xaml.cs">
+      <DependentUpon>TrashView.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,8 +97,49 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\DesktopView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\DocumentView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\DownloadView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\HomeView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\MovieView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\MusicView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\PCView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\PictureView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\StartupView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\TrashView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\MainModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -95,9 +166,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
-    <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\alarm_icon.png" />
