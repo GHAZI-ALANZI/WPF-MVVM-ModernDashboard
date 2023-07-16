@@ -95,6 +95,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="View\" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Assets\alarm_icon.png" />
     <Resource Include="Assets\analytics_icon.png" />
     <Resource Include="Assets\android_icon.png" />
@@ -103,8 +108,6 @@
     <Resource Include="Assets\back_icon.png" />
     <Resource Include="Assets\book_icon.png" />
     <Resource Include="Assets\calendar_icon.png" />
-    <Resource Include="Assets\channelIcon.png" />
-    <Resource Include="Assets\channel_icon.png" />
     <Resource Include="Assets\chart_icon.png" />
     <Resource Include="Assets\clap_icon.png" />
     <Resource Include="Assets\close_icon.png" />
@@ -150,11 +153,6 @@
     <Resource Include="Assets\vs_icon.png" />
     <Resource Include="Assets\webcam_icon.png" />
     <Resource Include="Assets\wifi_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="ViewModel\" />
-    <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
